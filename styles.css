@@ -1,0 +1,57 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(217, 54%, 11%);
+	min-height: 100vh;
+}
+
+.card {
+	width: 260px;
+	height: max-content;
+	padding: 20px;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 15px;
+	font-family: Outfit
+}
+
+.title {
+	color: rgb(255,255,255);
+	font-size: 18px;
+	font-weight: 400
+}
+
+.dsc {
+	color: hsl(215, 51%, 70%);
+}
+
+.nft-data {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nft-data p img {
+	margin-right: 6px;
+	height: 14px
+}
+
+.eth {
+	color: rgb(0,255,255);
+	font-size: 14px
+}
+
+.day {
+	color: hsl(215, 51%, 70%);
+	font-size: 14px
+}
+
+.author {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: hsl(215, 51%, 70%);
+	font-size: 13px
+}
+
+
